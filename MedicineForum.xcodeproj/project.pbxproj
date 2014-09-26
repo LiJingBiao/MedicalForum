@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E66E521D19D5689E00F60E21 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E66E521819D5689E00F60E21 /* LoginViewController.m */; };
+		E66E521E19D5689E00F60E21 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E66E521919D5689E00F60E21 /* LoginViewController.xib */; };
+		E66E521F19D5689E00F60E21 /* Loading_checkAmount_5_img@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E66E521C19D5689E00F60E21 /* Loading_checkAmount_5_img@2x.png */; };
 		E68090FD19D112080051DC77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68090FC19D112080051DC77 /* Foundation.framework */; };
 		E68090FF19D112080051DC77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68090FE19D112080051DC77 /* CoreGraphics.framework */; };
 		E680910119D112080051DC77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E680910019D112080051DC77 /* UIKit.framework */; };
@@ -54,6 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E66E521719D5689E00F60E21 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E66E521819D5689E00F60E21 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E66E521919D5689E00F60E21 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		E66E521C19D5689E00F60E21 /* Loading_checkAmount_5_img@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Loading_checkAmount_5_img@2x.png"; sourceTree = "<group>"; };
 		E68090F919D112080051DC77 /* MedicineForum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicineForum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68090FC19D112080051DC77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E68090FE19D112080051DC77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -143,6 +150,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E66E521519D5689E00F60E21 /* PageController */ = {
+			isa = PBXGroup;
+			children = (
+				E66E521619D5689E00F60E21 /* LoginViewController */,
+			);
+			path = PageController;
+			sourceTree = "<group>";
+		};
+		E66E521619D5689E00F60E21 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E66E521719D5689E00F60E21 /* LoginViewController.h */,
+				E66E521819D5689E00F60E21 /* LoginViewController.m */,
+				E66E521919D5689E00F60E21 /* LoginViewController.xib */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		E66E521A19D5689E00F60E21 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E66E521B19D5689E00F60E21 /* Image */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E66E521B19D5689E00F60E21 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				E66E521C19D5689E00F60E21 /* Loading_checkAmount_5_img@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		E68090F019D112080051DC77 = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +220,8 @@
 		E680910219D112080051DC77 /* MedicineForum */ = {
 			isa = PBXGroup;
 			children = (
+				E66E521519D5689E00F60E21 /* PageController */,
+				E66E521A19D5689E00F60E21 /* Resource */,
 				E680916019D119E70051DC77 /* lib */,
 				E680915519D114830051DC77 /* Include */,
 				E680912F19D113C70051DC77 /* NetWorking */,
@@ -420,6 +463,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E66E521F19D5689E00F60E21 /* Loading_checkAmount_5_img@2x.png in Resources */,
+				E66E521E19D5689E00F60E21 /* LoginViewController.xib in Resources */,
 				E680910719D112080051DC77 /* InfoPlist.strings in Resources */,
 				E680919019D119E70051DC77 /* SVProgressHUD.bundle in Resources */,
 				E680910F19D112080051DC77 /* Images.xcassets in Resources */,
@@ -452,6 +497,7 @@
 				E680919519D119E70051DC77 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				E680918D19D119E70051DC77 /* MKNetworkEngine.m in Sources */,
 				E680918819D119E70051DC77 /* NSDate+RFC1123.m in Sources */,
+				E66E521D19D5689E00F60E21 /* LoginViewController.m in Sources */,
 				E680918919D119E70051DC77 /* NSDictionary+RequestEncoding.m in Sources */,
 				E680919619D119E70051DC77 /* UIViewExt.m in Sources */,
 				E680918C19D119E70051DC77 /* UIImageView+MKNetworkKitAdditions.m in Sources */,
@@ -659,6 +705,7 @@
 				E680912719D112080051DC77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E680912819D112080051DC77 /* Build configuration list for PBXNativeTarget "MedicineForumTests" */ = {
 			isa = XCConfigurationList;
@@ -667,6 +714,7 @@
 				E680912A19D112080051DC77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
